@@ -22,3 +22,17 @@ $container.append($pet);
 const $wand = $('<h4/>').text("Holly Wand with Unicorn Hair Core");
 
 $container.append($wand);
+
+const $storageList = $('<ul storage="trunk"></ul');
+
+$container.append($storageList);
+
+$storageList.append($('<li>Butter Beer</li>'));
+
+$storageList.append($('<li class="secret">Invisibility Cloak</li>'));
+
+$storageList.append($('<li class="secret">Magic Map</li>'));
+
+$storageList.append($('<li class="secret">Time Turner</li>'));
+$storageList.append($('<li class="owl">Leash</li>'));
+$storageList.append($("<li>Bertie Bott's Every Flavor [Jelly] Beans</li>"));

@@ -3,6 +3,18 @@ body {
 	text-align: center;
 }
 
+div {
+	text-align: center;
+}
+
 .owl {
 	font-family: fantasy;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+ul {
+	list-style: none;
 }
