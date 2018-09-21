@@ -40,20 +40,15 @@ $h2.after($h3);							// ==> Add after $h2
 
 // h4 element with your pet's name
 // this h4 element should have a class with a value of your pet type (owl, cat, toad, etc)
-const $h4_vampireBat = $('<h4 class="vampireBat">Zelda</h4>');	// ==> Create
+const $h4_vampireBat = $('<h4 class="vampireBat">Zelda</h4>');		// ==> Create
 // console.log($h4.vampire_bat);									// ==> TEST
 $h3.after($h4_vampireBat);											// ==> Add after h3
 
 // h4 element with your wand (You can make it whatever you want. Need help coming up with one? Here is one of many websites to help you find your wand playbuzz.com )
 const $h4_wand = $('<h4 class="wand">Birch Wood Wand with Phoenix Core</h4>')
-console.log($h4_wand);
+// console.log($h4_wand);
 $h4_vampireBat.after($h4_wand);
 // In your style.css add an attribute of font-family: fantasy; to all elements that have a class that matches your pet's class
-
-// Test yourself
-
-// 🔴 The commit message should read: 
-// "Added more elements. My power grows with my dedication and hard work."
 
 
 
@@ -61,18 +56,30 @@ $h4_vampireBat.after($h4_wand);
 
 // Following what you did in previous years, add the following into an unordered list (with the attribute of storage and a value of trunk):
 
-// list items of
+const $ul = $('<ul storage="trunk"></ul>'); 	// ==> Create
+// console.log($ul);							// ==> TEST
 
+// list items of:
 // butter beer
 // invisibility cloak (add a class of secret)
 // magic map (add a class of secret)
 // time turner (add a class of secret)
 // leash (for your pet, be sure to give this list element the same class as you gave your pet)
 // Bertie Bott's Every Flavor [Jelly] Beans.
+$ul.append('<li>Butter Beer</li>');
+$ul.append('<li class="secret">Invisibility Cloak</li>');
+$ul.append('<li class="secret">Magic Map</li>');
+$ul.append('<li class="secret">Time Turner</li>');
+$ul.append('<li class="vampireBat">Leash</li>');
+$ul.append('<li>Bertie Bott\'s Every Flavor [Jelly] Beans</li>');
+
+// console.log($ul);							// ==> TEST
 // append the unordered list to your container div
+$container.append($ul);
 // In your style.css file, give the items with a class of secret an attribute of opacity: 0.5;
 
 // In your style.css file, remove the bullet points from the list items
+console.log($('li.vampireBat'));
 
 // Test yourself
 // 🔴 The commit message should read: 

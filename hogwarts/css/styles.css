@@ -5,3 +5,11 @@ body {
 .vampireBat {
 	font-family: fantasy;
 }
+
+.secret {
+	opacity: .5;
+}
+
+li	{
+	list-style-type: none;
+}
