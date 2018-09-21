@@ -81,7 +81,6 @@ $container.append($ul);
 // In your style.css file, remove the bullet points from the list items
 console.log($('li.vampireBat'));
 
-// Test yourself
 // 🔴 The commit message should read: 
 // "Added list elements. That code didn't seem very DRY. I wonder if Hungry for More will have me DRY it up a bit."
 
@@ -92,16 +91,32 @@ console.log($('li.vampireBat'));
 
 // Make a table
 // Hint: Look under More Examples, <p>Simple table with header</p> at MDN to see the correct HTML element layout
+const $table = $('<table></table>');
+$ul.after($table);
 
-// Right above your table add an h5 that says 'Spring 2017'
+// Right above your table add an h5 that says 'Autumn 2018'
+$table.before('<h5>Autumn 2018</h5>');
+
 // Inside the table add a thead element
+$table.append('<thead></thead>');
+
 // Inside the thead element add two th elements
 // in the first th add the text Day
 // in the second th add the text Classes
+$('table').append('<th>Day</th>');
+$('table').append('<th>Classes</th>');
+
 // Create a tr element and add two td elements inside.
 // in the first td add the day Monday
 // in the second td add the classes you are taking ( Herbology, Divination, History of Magic, Charms, Potions, Transfiguration, Defense Against the Dark Arts, Quidditch practice, etc.)
+
 // Create more tr elements with tds inside so that you have Monday - Friday and classes each of those days
+$('table').append('<tr><td>Monday</td><td>Quidditch Practice</td></tr>');
+$('table').append('<tr><td>Tuesday</td><td>Transfiguration</td></tr>');
+$('table').append('<tr><td>Wednesday</td><td>Charms</td></tr>');
+$('table').append('<tr><td>Thursday</td><td>Potions</td></tr>');
+$('table').append('<tr><td>Friday</td><td>Defense Against the Dark Arts</td></tr>');
+
 // In your style.css file, add a gray 1px solid border around your table, th elements and td elements
 // In your style.css file, add a rule that will center your table on the page
 // Test yourself
