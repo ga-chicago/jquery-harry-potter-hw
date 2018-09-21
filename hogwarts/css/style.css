@@ -1,0 +1,32 @@
+body {
+	text-align: center;
+}
+
+.snake {
+	font-family: fantasy;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	border: 1px solid gray;
+	margin: 0 auto;
+}
+
+th {
+	border: 1px solid gray;
+}
+
+td {
+	border: 1px solid gray;
+}
+
+.cabbage {
+	color: chartreuse;
+}
