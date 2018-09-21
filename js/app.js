@@ -15,8 +15,8 @@ const $h3 = $("<h3/>");
 $('#container').append('<h3>Slytherin</h3>')
 $('h3').addClass('classbcilearnedhow');
 const $h4 = $("<h4/>");
-$('#container').append("<h4>Mac</h4>")
-$('h4').addClass("cat")
+$('#container').append("<h6>Mac</h6>")
+$('h6').addClass("cat")
 // console.log($h4);
 const $h4wand = $("<h4/>")
 $('#container').append("<h4>Awesome Wand</h4>")
@@ -44,12 +44,20 @@ $('container').append("ul")
 
 $('#container').append('<h5>Spring 2017</h5>');
 
-$('#container').append('<table><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Programmination</td></tr><tr><td>Tuesday</td><td>ughhhhhhhhhology</td></tr><tr><td>Wednesday</td><td>Wand Class</td></tr><tr><td>Thursday</td><td>Vexology</td></tr><tr><td>Friday</td><td>Generic Harry Potter Class</td></tr>');
+$('#container').append('<table><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Programmination</td></tr><tr><td>Tuesday</td><td>ughhhhhhhhhology</td></tr><tr><td>Wednesday</td><td>Wand Class</td></tr><tr><td>Thursday</td><td>Vexology</td></tr><tr><td>Friday</td><td>Generic Harry Potter Class</td></tr></table>');
 
 
 
+//-------year 5
+$("h4").remove();
+$('li').first().remove();
+$('li').first().append("<h4>Lame Ass Wand</h4>");
+$('h4').first().addClass('newWand');
 
+$('.newWand').css('color', 'maroon');
 
+$('h6.cat').appendTo('ul');
+$('h6.cat').appendTo('h4');
 
 
 
