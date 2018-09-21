@@ -24,3 +24,11 @@ $('ul').append('<li>Bertie Bott&apos;s Every Flavor Beans</li>');
 //Year 4
 $container.append('<h5>Spring 2017</h5>');
 $container.append('<table><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Herbology, History of Magic</td></tr><tr><td>Tuesday</td><td>Charms, Potions</td></tr><tr><td>Wednesday</td><td>Transfiguration, Defense Against the Dark Arts</td></tr><tr><td>Thursday</td><td>Quidditch practice, chill with Hagrid</td></tr><tr><td>Friday</td><td>Arithmancy</td></tr></table>');
+
+//Year 5
+$('h4').eq(2).remove();
+$('li').eq(0).remove();
+$('h4.snake').after('<h4>Prometheus 2<h4>');
+$('h4').eq(1).css('color','indigo');
+$('h4.snake').appendTo('ul');
+$('h4.snake').appendTo('h3');
