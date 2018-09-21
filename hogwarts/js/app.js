@@ -38,3 +38,15 @@ $('li.secret').delay(2000).hide('slow');
 $('li.secret').delay(2000).show('slow');
 $('li.snake').addClass('cabbage');
 $('li.snake').removeClass('cabbage');
+
+//Year 7
+$('h5').text('Fall 2018');
+$('ul').prepend('<li>butter beer</li>');
+$('ul').attr('storage','chest');
+$container.css('background-color','lightblue');
+$container.css('border','1px solid red');
+
+
+
+
+
