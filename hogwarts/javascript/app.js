@@ -119,23 +119,33 @@ $('table').append('<tr><td>Friday</td><td>Defense Against the Dark Arts</td></tr
 
 // In your style.css file, add a gray 1px solid border around your table, th elements and td elements
 // In your style.css file, add a rule that will center your table on the page
-// Test yourself
-// 🔴 The commit message should read: 
-// "I realize I can make things that are increasingly more complex with greater ease. Adding order is always more effort than causing chaos."
 
 
 
 // YEAR 5
+
 // Things get interesting
 
 // Break your wand! (select the element that contains your wand and remove it)
+$h4_wand.remove();
+
 // Class was hard! Drink all your butter beer! (remove just the butter beer from your list)
+$('ul li').first().remove();
+// console.log($('ul'));			// ==> TEST
+
 // Get a new wand (add the same element back with new text describing your new wand. Be sure to insert it after your pet in the DOM)
+$h4_vampireBat.after('<h4 class="wand">Birch Wood Wand with Phoenix Core<h6>Patched it up with some tape. I\'m sure it works fine</h6></h4>');
+
 // Make your new wand stand out by adding a color of indigo (or whatever color you like). But do it with magic (jQuery): Don't add this css in your style.css file
+$('.wand, h6').css("color", "indigo");
+
 // Send your pet on a spy mission (remove your pet from the DOM, put it somewhere else in your HTML). Make sure your pet's leash stays in your trunk (list item with the same class as your pet inside unordered list)
+$table.after('<br/><div class="forbidden"><img src="https://media.istockphoto.com/photos/fall-in-woods-picture-id636705942?k=6&m=636705942&s=612x612&w=0&h=ZR6JnfsxBhGiSksFPo-VoTtVX6K7XPTF_i3QLq5-9I0="><br/>Forbidden Forest</div>');
+$h4_vampireBat.appendTo($('.forbidden'))
+
 // Have your pet come back (remove your pet from the DOM, put it back in its original location)
-// 🔴 The commit message should read: 
-// "The days go by slowly and the years go by too fast"
+$h4_vampireBat.remove();
+$h3.after('<h4 class="vampireBat">Zelda</h4>');
 
 
 
