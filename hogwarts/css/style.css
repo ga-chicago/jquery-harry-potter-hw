@@ -6,10 +6,9 @@ body {
 	font-family: fantasy;
 }
 
-ul {
+li {
 	list-style: none;
 	text-align: center;
-	display: inline-block;
 }
 
 .secret {
