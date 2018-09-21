@@ -1,6 +1,8 @@
 body {
-	background-color: lavender;
+	background-color: black;
 	text-align: center;
+	font-family: ariel;
+	color: lavender;
 }
 
 .owl {

@@ -61,6 +61,13 @@ $('li.owl').addClass("cabbage");
 // remove class cabage from leash
 $('li.owl').removeClass("cabbage");
 
+$('h5').text("Fall 2018");
+
+$('ul').prepend('<li value="trunk">Butter Beer</li>')
+// change storage=trunk to storage=chest using attr(attribute, value)
+$('ul').attr('storage', 'chest');
+
+
 
 
 
