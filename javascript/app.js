@@ -51,6 +51,16 @@ $('h4.owl').appendTo($storageList);
 
 $('h4.owl').appendTo('h3');
 
+$('.secret').hide('slow');
+// use delay w/ argument 2000 (2 seconds) and use show method with argument 'slow'
+$('.secret').delay(2000).show('slow');
+
+// add class cabbage to pet leash but not pet. use li.owl
+$('li.owl').addClass("cabbage");
+
+// remove class cabage from leash
+$('li.owl').removeClass("cabbage");
+
 
 
 
