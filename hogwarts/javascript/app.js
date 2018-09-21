@@ -154,11 +154,21 @@ $h3.after('<h4 class="vampireBat">Zelda</h4>');
 
 // Nosey roommate alert! hide (use jQuery method hide) to hide all your belongings with a class of secret (give an argument of 'slow' - to see this function in action)
 // Nosey roommate falls asleep 2 seconds later (chain the jQuery method delay on your hide method (give argument of at least 2000) to prevent showing your secret elements too soon.
+$('.secret').delay(2500).hide('slow');
+
 // Use jQuery method show to reveal all of your belongings with a class of secret (give an argument of 'slow' - to see this function in action)
+$('.secret').delay(3000).show('slow');
+
 // Accident! You transmogrified your pet's leash into half cabbage
 // add the class cabbage to your pet's leash. Do not replace your pet's leash's original class. Your pet, which also has the same class should remain unaffected
 // add an attribute of color: chartreuse; in your style.css for all elements that have a class of cabbage
+$('li.vampireBat').addClass('cabbage');
+// console.log($('li.vampireBat'));			// ==> TEST
+
 // Fix your pet's leash by removing the class of cabbage (be sure to keep your pet's leash's original class)
+$('li.vampireBat').removeClass('cabbage')
+// console.log($('li.vampireBat'));			// ==> TEST
+
 // 🔴 The commit message should read: 
 // "A cauliflower is a cabbage with a college education - Mark Twain"
 
