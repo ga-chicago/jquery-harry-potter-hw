@@ -5,3 +5,15 @@ body {
 .toad {
 	font-family: fantasy;
 }
+
+ul {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+
