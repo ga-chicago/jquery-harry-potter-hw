@@ -13,3 +13,9 @@ body {
 ul {
 	list-style-type: none;
 }
+
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
