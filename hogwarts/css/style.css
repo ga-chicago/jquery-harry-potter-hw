@@ -29,3 +29,11 @@ tr {
 	border: 1px solid black;
 }
 
+img {
+	width: 400px;
+	height: auto;
+}
+
+.cabbage {
+	color: chartreuse;
+}

@@ -10,7 +10,7 @@ const $h3 = $("<h3>Slytherin</h3>");
 
 const $petH4 = $("<h4 class='toad'>Citizen Cane</h4>")
 
-const $h4 = $("<h4>Red Mahogany Wand with Dragon Heartstring Core</h4>");
+let $h4 = $("<h4 class='wand'>Birch Wand with a Phoenix Feather Core</h4>"); 
 
 // const $ul = $("<ul> <li>Butter Beer</li><li class='secret'>Marauder's Map</li> <li class='secret'>Invisibility Cloak</li> <li class ='secret'>Time Turner</li> <li class='toad'>leash</li><li>Bertie Bott's Every Flavor Beans</li></ul>")
 
@@ -59,16 +59,37 @@ $container.append($table)
 
 // $h4.text("Birch Wand with a Phoenix Feather Core")
 
-// $h4.remove()
+const $image = ("<img src='Hagrids.jpg'>")
+$container.append($image)
+
+$h4.remove()
+
+$h4.text("Red Mahogany Wand with Dragon Heartstring Core")
+
+$h3.after($h4)
 
 $li1.remove()
 
-$h4.css("color", "red")
+$li2.before($petH4)
 
-// $("head").append($petH4)
+$(".wand").css("color", "red")
 
+$(".hagrids").append($petH4)
 
+$(".hagrids").css("img-height", "400px")
+$(".hagrids").css("img-width", "400px")
 
+$petH4.remove()
+
+$h4.after($petH4)
+
+$('.secret').hide("slow").delay(2000)
+
+$('.secret').show("slow")
+
+$li5.addClass('cabbage')
+
+$li5.removeClass('cabbage')
 
 
 
