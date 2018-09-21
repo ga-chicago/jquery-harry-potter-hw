@@ -14,6 +14,11 @@ console.log($h1)
 // Add some text inside the h1 element. Example text: 'Hogwarts'
 const $h2 = $('<h2/>')
 console.log($h2)
+
+
+//---------------YEAR 2
+
+
 //h2 element with your name
 $('#container').append('<h2>Josh Hepworth</h2>')
 console.log($h2)
@@ -30,6 +35,28 @@ console.log($h4)
 // h4 element with your wand
 const $h4wand = $('<h4/>')
 $('#container').append('<h4>Elder Wand</h4>')
+
+
+
+//----------------YEAR 3
+
+// Following what you did in previous years, add the following into an unordered list (with the attribute of storage and a value of trunk):
+const $ul = $('<ul/>');
+$('#container').append('<ul></ul>')
+console.log($ul)
+$('ul').attr('storage')
+$('ul').val('trunk')
+
+const $li = $('<li/>')
+$('ul').append('<li>butter beer</li>')
+$('ul').append('<li>invisibility</li>')
+$('ul').append('<li>magic map</li>')
+$('ul').append('<li>time turner</li>')
+$('ul').append('<li>leash</li>')
+$('ul').append('<li>Bertie Botts Every Flavor [Jelly] Beans.</li>')
+
+console.log($li)
+
 
 
 
