@@ -32,3 +32,9 @@ $('h4.snake').after('<h4>Prometheus 2<h4>');
 $('h4').eq(1).css('color','indigo');
 $('h4.snake').appendTo('ul');
 $('h4.snake').appendTo('h3');
+
+//Year 6
+$('li.secret').delay(2000).hide('slow');
+$('li.secret').delay(2000).show('slow');
+$('li.snake').addClass('cabbage');
+$('li.snake').removeClass('cabbage');
