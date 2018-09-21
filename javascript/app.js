@@ -36,3 +36,11 @@ $storageList.append($('<li class="secret">Magic Map</li>'));
 $storageList.append($('<li class="secret">Time Turner</li>'));
 $storageList.append($('<li class="owl">Leash</li>'));
 $storageList.append($("<li>Bertie Bott's Every Flavor [Jelly] Beans</li>"));
+
+$container.append($('<h5>Spring 2017</h5>'));
+$container.append($('<table><thead><th>Day</th><th>Classes</th></thead><tr><td>Monday</td><td>Quidditch Practice</td></tr><tr><td>Tuesday</td><td>Charms, Potions</td></tr><tr><td>Wednesday</td><td>Herbology</td></tr><tr><td>Thursday</td><td>Defense against the dark arts</td></tr><tr><td>Tuesday</td><td>Transfiguration</td></tr></table>'));
+
+
+$wand.remove();
+$('li').eq(0).remove();
+
