@@ -16,4 +16,17 @@ ul {
 	opacity: 0.5;
 }
 
+table {
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: 1px solid black;
+}
+
+tr {
+	border: 1px solid black;
+}
 
