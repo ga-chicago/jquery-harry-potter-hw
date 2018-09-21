@@ -1,5 +1,6 @@
 body {
 	text-align: center;
+	background-color: lavender;
 }
 .dog {
 	font-family: fantasy;
@@ -9,15 +10,18 @@ body {
 }
 ul {
 	list-style: none;
+	text-align: center;
 }
 table,th,td {
 	border: 1px solid gray;
 }
 table {
-	margin-left: auto
-	margin-right: auto;
-	display: table;
+text-align: center;
+display: center;
 }
 .cabbage {
 	color: chartreuse;
+}
+h1 {
+	text-decoration: underline;
 }

@@ -25,7 +25,7 @@ console.log($h2)
 //h3 element with your house (Hufflepuff, Gryffindor, Ravenclaw or Slytherin )
 const $h3 = $('<h3/>')
 console.log($h3)
-$('#container').append('<h3>Ravenclaw</h3>')
+$container.append('<h3>Ravenclaw</h3>')
 // h4 element with your pet's name
 const $h4 = $('<h4/>')
 $('#container').append('<h4>Theodore</h4>')
@@ -50,20 +50,19 @@ $('ul').attr('storage')
 $('ul').val('trunk')
 
 const $li = $('<li/>')
-$('ul').append('<li>butter beer</li>')
+$('ul').prepend('<li>butter beer</li>')
 // $('ul').append('<li>invisibility</li>')
 const $liInvis = $('<li/>')
-$('ul').append('<li>Invisibility cloak</li>')
-$('li').addClass('secret')
+$('ul').append('<li class="secret">Invisibility cloak</li>')
+// $('li').addClass('secret')
 // $('ul').append('<li>magic map</li>')
 const $liMap = $('<li/>')
-$('ul').append('<li>Magic Map</li>')
+$('ul').append('<li class="secret">Magic Map</li>')
 // $('li').addClass('secret')
-$('ul').append('<li>time turner</li>')
+$('ul').append('<li class="secret">time turner</li>')
 $( "li" ).eq( 1 ).addClass( 'secret' );
 $('ul').append('<li>leash</li>')
 $( "li" ).eq( 2 ).addClass( 'secret' );
-$( "li" ).eq( 3 ).addClass( 'dog' );
 
 $('ul').append('<li>Bertie Botts Every Flavor [Jelly] Beans.</li>')
 //HOW TO ADD CLASSES..
@@ -96,48 +95,8 @@ console.log($li)
 // Right above your table add an h5 that says 'Spring 2017'
 const $h5 = $('<h5/>')
 $('#container').append('<h5>Spring 2017</h5>')
-const $table = $('<table/>')
-$('#container').append('<table></table>')
-$('table').append('<thead></thead>')
-//Inside the table add a thead element
-const $th1 = $('<th/>')
-$('thead').append('<th>Day</th>')
-const $th2 = $('<th/>')
-$('thead').append('<th>Classes</th>')
-$('thead').append('<tr/>')
-// Inside the thead element add two th elements
-const $td1 = $('<td/>')
-$('tr').append('<td>Monday</td>')
-const $td2 = $('<td/>')
-$('tr').append('<td>Herbology, Divination, Potions.')
+$container.append('<table><tr><th>Day</th><th>Classes</th></tr><tr><td>Monday</td><td>Herbology, History of Magic</td></tr><tr><td>Tuesday</td><td>Charms, Shenanigans with the squad</td></tr><tr><td>Wednesday</td><td>Defense Against the Dark Arts</td></tr><tr><td>Thursday</td><td>Quidditch practice</td></tr><tr><td>Friday</td><td>Potions, Herbology</td></tr></table>');
 
-
-// $('thead').append('</tr>')
-const $td3 = $('<td/>')
-$('tr').append('<td>Tuesday</td>')
-const $td4 = $('<td/>')
-$('tr').append('<td>Defense Against the Dark Arts, Quidditch practice')
-
-
-// $('thead').append('</tr>')
-const $td5 = $('<td/>')
-$('tr').append('<td>Wednesday</td>')
-const $td6 = $('<td/>')
-$('tr').append('<td>History of Magic.')
-
-
-// $('thead').append('</tr>')
-const $td7 = $('<td/>')
-$('tr').append('<td>Thursday</td>')
-const $td8 = $('<td/>')
-$('tr').append('<td> Herbology, Divination, Potions.')
-
-
-// $('thead').append('</tr>')
-const $td9 = $('<td/>')
-$('tr').append('<td>Friday</td>')
-const $td10 = $('<td/>')
-$('tr').append('<td>Defense Against the Dark Arts, Quidditch practice')
 
 //------------------YEAR 5
 
@@ -194,6 +153,49 @@ $( "li" ).eq( 3 ).addClass( 'cabbage' );
 // Fix your pet's leash by removing the class of cabbage (be sure to keep your pet's leash's original class)
 
 $( "li" ).eq( 3 ).removeClass( 'cabbage' );
+
+//------------------YEAR 7
+
+
+// Though your time at Hogwarts is nearly over, your journey of learning has just begun
+
+// Update your class schedule to read 'Fall 2018'
+$('h5').text('Fall 2018')
+
+// Celebrate by buying more butter beer! Append a list item with the text 'Butter beer' as the first list item inside your unordered list with the value of trunk
+$('ul').prepend('<li>More Butter Beer</li>')
+
+// Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
+$('ul').attr('storage','chest');
+
+// Add some CSS to your page. Feel free to experiment and make this page your own
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
