@@ -60,6 +60,15 @@ $('h6.cat').appendTo('ul');
 $('h6.cat').appendTo('h4');
 
 
+///year6
+// $('li.secret').hide('slow');
+$('li.secret').hide('slow').delay(2000);
+
+$('li.secret').show('slow');
+
+$('h6.cat').addClass('cabbage');
+$('h6.cat').removeClass('cabbage');
+
 
 // $('#container').append('<table></table>');
 // $('table').addClass('table');
