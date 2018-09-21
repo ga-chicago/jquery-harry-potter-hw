@@ -18,3 +18,16 @@ div {
 ul {
 	list-style: none;
 }
+
+table {
+	border: solid 1px darkgrey;
+	margin: 0 auto;
+}
+
+th {
+	border: solid 1px darkgrey;
+}
+
+td {
+	border: solid 1px darkgrey;
+}
