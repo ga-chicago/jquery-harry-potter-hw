@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	background-color: #085C5C;
+	font-family: cursive;
 }
 
 .vampireBat {
@@ -18,7 +20,34 @@ li	{
 	list-style-type: none;
 }
 
+h5{
+	font-size: 20px;
+	margin: 5px auto;
+	/*text-decoration: underline double #43ACA8;*/
+	/*line-height: 30px;*/
+}
+
 table, th, td {
 	border: 1px solid gray;
 	margin: auto;
+	background-color: #043137;
+	color: #43ACA8;
+}
+
+tr {
+	text-align: left;
+}
+
+th, td {
+	padding: 5px;
+}
+
+table {
+	width: 600px;
+}
+
+img {
+	border-radius: 20px;
+	border: 5px double #112732;
+	width: 600px;
 }

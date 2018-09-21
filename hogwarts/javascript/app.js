@@ -95,7 +95,7 @@ const $table = $('<table></table>');
 $ul.after($table);
 
 // Right above your table add an h5 that says 'Autumn 2018'
-$table.before('<h5>Autumn 2018</h5>');
+$table.before('<h5>Spring 2017</h5>');
 
 // Inside the table add a thead element
 $table.append('<thead></thead>');
@@ -103,8 +103,8 @@ $table.append('<thead></thead>');
 // Inside the thead element add two th elements
 // in the first th add the text Day
 // in the second th add the text Classes
-$('table').append('<th>Day</th>');
-$('table').append('<th>Classes</th>');
+$('thead').append('<th>Day</th>');
+$('thead').append('<th>Classes</th>');
 
 // Create a tr element and add two td elements inside.
 // in the first td add the day Monday
@@ -169,18 +169,22 @@ $('li.vampireBat').addClass('cabbage');
 $('li.vampireBat').removeClass('cabbage')
 // console.log($('li.vampireBat'));			// ==> TEST
 
-// 🔴 The commit message should read: 
-// "A cauliflower is a cabbage with a college education - Mark Twain"
-
 
 
 // YEAR 7
 // Though your time at Hogwarts is nearly over, your journey of learning has just begun
 
 // Update your class schedule to read 'Fall 2018'
+$('h5').text('Fall 2018');
+
 // Celebrate by buying more butter beer! Append a list item with the text 'Butter beer' as the first list item inside your unordered list with the value of trunk
-// Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
+$('ul').prepend('<li>Butter Beer</li>')
+// Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unordered list's property of trunk with a new property of chest
+$('ul').attr('storage', 'chest');
+
 // Add some CSS to your page. Feel free to experiment and make this page your own
+
+
 // 🔴 The commit message should read: 
 // "I am getting more comfortable with ambiguous instructions"
 
