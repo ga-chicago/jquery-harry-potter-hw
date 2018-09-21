@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+	background-size: cover;
+}
+
+.toad {
+	font-family: fantasy;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	color: white;
+}
+
+h1, h2, h3, h4, h5 {
+	color: white;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+table {
+	border: 2px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+th {
+	border: 2px solid white;
+}
+
+tr {
+	border: 2px solid white;
+}
+
+img {
+	width: 400px;
+	height: auto;
+}
+
+.cabbage {
+	color: chartreuse;
+}
