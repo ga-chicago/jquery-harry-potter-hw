@@ -5,3 +5,11 @@ body {
 .snake {
 	font-family: fantasy;
 }
+
+.secret {
+	opacity: 0.5;
+}
+
+ul {
+	list-style: none;
+}
