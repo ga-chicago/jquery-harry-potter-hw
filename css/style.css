@@ -1,0 +1,29 @@
+
+body {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+}
+
+.pet {
+	font-family: fantasy;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+li {
+	list-style-type: none;
+}
+
+table, th, td {
+	border: 1px solid gray;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.cabbage {
+	color: chartreuse;
+}
